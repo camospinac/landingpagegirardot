@@ -13,6 +13,10 @@ html, body {
 	height: 100%;
 }
 
+.emoji {
+    font-size: 2em; /* Cambia el tamaño según lo que necesites */
+  }
+
 body {
 	--color-text: #252528;
 	--color-bg: #afb6bc;
