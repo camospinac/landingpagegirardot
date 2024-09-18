@@ -201,10 +201,20 @@ a:focus {
 	height: 100vh;
 	padding: 15vh 0;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	position: relative;
+}
+
+.new_titulo{
+	font-size: 6vw;
+	margin-top: -7vw;
+	text-stroke: 2px #646464;/*var(--color-menu-text);*/
+	/* Cambia esto para que siempre estén rellenas */
+	-webkit-text-fill-color: #646464; /*var(--color-menu-text);*/
+	text-fill-color: #646464;/*var(--color-menu-text);*/
+	color: #646464;/*var(--color-menu-text);*/
 }
 
 .menu__item {
@@ -213,7 +223,7 @@ a:focus {
 	font-size: 14vw;
 	line-height: 1.1;
 	cursor: pointer;
-	padding-bottom: 1rem;
+	padding-right: 1.5rem;
 	/* -webkit-text-stroke: 2px #646464;var(--color-menu-text); */
 	text-stroke: 2px #646464;/*var(--color-menu-text);*/
 	/* Cambia esto para que siempre estén rellenas */
@@ -410,6 +420,7 @@ h3 {
 		grid-area: links;
 		padding: 0;
 		justify-self: end;
+		font-size: 1.5vw;
 	}
 	.frame a {
 		pointer-events: auto;
